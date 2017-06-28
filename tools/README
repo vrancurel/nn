@@ -16,3 +16,8 @@ $ ./hand_digit -I train-images-idx3-ubyte -L train-labels-idx1-ubyte -lsv
 To run:
 
 $ ./hand_digit -I t10k-images-idx3-ubyte -L t10k-labels-idx1-ubyte -iv 
+
+
+LINKS
+-----
+Wbuild can be found here: https://www.w3.org/People/Bos/Wbuild-3.0.tar.bz2

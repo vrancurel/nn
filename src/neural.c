@@ -151,8 +151,8 @@ void	neural_network_train(t_neural_network	*nn,
 	    weight_deltas[nn->num_layers - 1][i];
 	  weight_deltas[nn->num_layers - 1][i] *= output[i] * (1 - output[i]);
 	}
-      if (vflag)
-        printf("mse=%f max_mse=%f\n", mse, max_mse);
+      //if (vflag)
+      //printf("mse=%f max_mse=%f\n", mse, max_mse);
       if (mse < max_mse)
 	break ;
       //delta on hidden layers
